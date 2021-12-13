@@ -7,7 +7,7 @@
 @section('content')
   <div class="login-box">
     <div class="login-logo">
-      <a href=#><b>Personal</b>Blog</a>
+      <a href=#><b>Jafar</b>.id</a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
