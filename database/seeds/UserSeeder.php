@@ -12,9 +12,9 @@ class UserSeeder extends Seeder
     public function run()
     {
         $administrator = new App\User;
-        $administrator->name = 'Rifki';
-        $administrator->email = 'rifki@admin.com';
-        $administrator->password = \Hash::make('admin');
+        $administrator->name = 'Asidik';
+        $administrator->email = 'asidikaj@gmail.com';
+        $administrator->password = \Hash::make('jafar123');
 
         $administrator->save();
 
