@@ -77,12 +77,6 @@ class ArticleController extends Controller
         }
     }
 
-    public function likefoto(Request $request, $id){
-        $article = Article::find($id);
-        $article->increment('suka');
-        return back();
-    }
-
     /**
      * Display the specified resource.
      *
